@@ -1,2 +1,2 @@
 # InterviewProblems
-Resolved most common interview problems
+Resolved most common interview problems by Daniel Vieira
