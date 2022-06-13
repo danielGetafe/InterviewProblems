@@ -47,23 +47,6 @@ class Solution2:
         indexBiggestLeft = (nums1Size + 1) // 2
         indexSmallestRight = (nums1Size + 1) // 2 + 1
 
-        while (not done):
-            #TODO --> Check if it is inside 
-            if nums1[indexLeft - 1] > nums2[indexRight + 1]:
-                if indexLeft == -1: #If we are outside the list, we are done
-                    done = True
-                else: #If not, decrease the left and increase the right
-                    indexLeft = indexLeft - 1
-                    indexRight = indexRight + 1
-            
-            else:
-                if indexLeft == nums1Size + 1: #if we are at the end of the list, we are done
-                    indexLeft = indexLeft + 1
-                    indexRight = indexRight - 1
-
-                else: #Otherwise, increase the left and decrease the right
-                    done = True
-
         #TODO --> calculate min of left part or max of the right one
 
 
