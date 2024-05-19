@@ -1,7 +1,7 @@
 import operator
 
 class Solution:
-    def evalRPN(self, tokens: List[str]) -> int:
+    def evalRPN(self, tokens: list[str]) -> int:
         stack = []
         operators = {
             "+": operator.add,
