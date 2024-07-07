@@ -1,5 +1,6 @@
 import operator
 
+
 class Solution:
     def evalRPN(self, tokens: list[str]) -> int:
         stack = []
@@ -7,7 +8,7 @@ class Solution:
             "+": operator.add,
             "-": operator.sub,
             "*": operator.mul,
-            "/": operator.truediv
+            "/": operator.truediv,
         }
         for token in tokens:
             if token in ["+", "-", "*", "/"]:
